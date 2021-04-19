@@ -29,7 +29,7 @@ do not support 2G and hence incompatible with GSM Module.
 
 ## Project Makers
 
-- Kuntal Paul <kuntalpauloriginal@gmail.com>
+- Kuntal Paul     <kuntalpauloriginal@gmail.com>
 - Ishan Chaudhari <ishanchdhr2@gmail.com>
 - Arpan Mukherjee <arpanjonty@gmail.com>
 
