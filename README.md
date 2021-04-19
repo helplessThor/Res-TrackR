@@ -14,6 +14,26 @@ Here is the block diagram of the system--
 
 
 
+Pin Connection between Arduino and GPS:
+Arduino UNO | GPS Module
+----------- | -----------
+Digital Pin 2 | TX
+Digital Pin 3 | RX
+3.3 V | VCC
+GND | GND
+
+Pin Connection between Arduino and GSM:
+Arduino UNO | GSM Module
+----------- | -----------
+Digital Pin 9 | TX
+Digital Pin 10 | RX
+
+Pin Connection between Arduino and Touch Module:
+Arduino UNO | Touch Module
+----------- | -----------
+Digital Pin 7 | Signal/Data
+GND | GND
+3.3 V | VCC
 
 Basically, this system runs on a simple workflow of **Trigger-Fetch-Respond**. The user provides a trigger by touching into the touch sensor. It serves as an Interrupt to 
 the normalcy of the system. As an interrupt requires ISR (Intterupt Service Routine), in a similar fashion, this trigger asks the device to fetch current **Location 
