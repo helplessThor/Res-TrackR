@@ -1,4 +1,4 @@
-# Res-TrakR
+# Res-TrackR
 The Res-TrackR is Proof-of-Concept (PoC) demonstration of how Internet of Things can bring revolution in our society.
 In today's world, already IoT has become a technological key player in multiple solution. Taking this one step higher, to solve one of the burning
 problems of the society, IoT based Women Safety SOS System has been demonstrated in this project. As the name suggests, it is basically a Rescue Tracker Device,
@@ -11,7 +11,7 @@ Let's come to its hardware components--
 4. GSM Module (SIM 900A)
 
 Here is the block diagram of the system--
-
+![GitHub Logo](/images/IMG_20210419_180712.jpg)
 
 
 Pin Connection between Arduino and GPS:
