@@ -11,7 +11,7 @@ Let's come to its hardware components--
 4. GSM Module (SIM 900A)
 
 Here is the block diagram of the system--
-![GitHub Logo](/images/IMG_20210419_180712.jpg)
+![GitHub Logo](https://github.com/helplessThor/Res-TrackR/blob/main/touch_gps/images/IMG_20210419_180712.jpg)
 
 
 Pin Connection between Arduino and GPS:
