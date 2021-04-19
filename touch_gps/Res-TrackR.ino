@@ -37,7 +37,7 @@ void loop()
       delay(1000);
       /*Replace XXXXXXXXXX to 10 digit mobile number &
         ZZ to 2 digit country code*/
-      sgsm.print("AT+CMGS=\"+916289605372\"\r");
+      sgsm.print("AT+CMGS=\"+91XXXXXXXXXX\"\r");
       delay(1000);
       //The text of the message to be sent.
       sgsm.print("https://www.google.com/maps/?q=");
