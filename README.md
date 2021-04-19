@@ -46,7 +46,7 @@ a Google Map Link.
 
 Have look at the output at Serial Monitor:
 
-![Output]()
+![Output](https://github.com/helplessThor/Res-TrackR/blob/main/touch_gps/images/Screenshot%20(47).png)
 
 In this way, this system can potentially be used as a Women-Saafety SOS Device, as this IoT device uses the bandwidth of Cellular Communication, it can be used in remote 
 areas also, where internet connectivity is little. Thus, not only as a Women's Safety device, it can be potentially used for any rescue location device also. Such device 
