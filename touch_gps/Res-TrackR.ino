@@ -1,5 +1,5 @@
-//TrackR
-//Algo: Fetch-Trigger-Respond
+//Res-TrackR
+//Algo: Trigger-Fetch-Respond
 
 #include <SoftwareSerial.h>
 #include <TinyGPS.h>
