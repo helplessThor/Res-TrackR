@@ -11,8 +11,8 @@ Let's come to its hardware components--
 4. GSM Module (SIM 900A)
 
 Here is the block diagram of the system--
-![GitHub Logo](https://github.com/helplessThor/Res-TrackR/blob/main/touch_gps/images/IMG_20210419_180712.jpg)
 
+![Block Diagram](https://github.com/helplessThor/Res-TrackR/blob/main/touch_gps/images/IMG_20210419_180712.jpg)
 
 Pin Connection between Arduino and GPS:
 Arduino UNO | GPS Module
@@ -35,10 +35,19 @@ Digital Pin 7 | Signal/Data
 GND | GND
 3.3 V | VCC
 
+A total overview of the system:
+
+![Implementation](https://github.com/helplessThor/Res-TrackR/blob/main/touch_gps/images/IMG20210419193107.jpg)
+
 Basically, this system runs on a simple workflow of **Trigger-Fetch-Respond**. The user provides a trigger by touching into the touch sensor. It serves as an Interrupt to 
 the normalcy of the system. As an interrupt requires ISR (Intterupt Service Routine), in a similar fashion, this trigger asks the device to fetch current **Location 
 Co-ordinates**. If a valid set of coordinates fetched, then the system calls the GSM Module to send an SMS to a registered mobile number with the location details with 
 a Google Map Link.
+
+Have look at the output at Serial Monitor:
+
+![Output]()
+
 In this way, this system can potentially be used as a Women-Saafety SOS Device, as this IoT device uses the bandwidth of Cellular Communication, it can be used in remote 
 areas also, where internet connectivity is little. Thus, not only as a Women's Safety device, it can be potentially used for any rescue location device also. Such device 
 can be used by campers, and even by rescue officials.
